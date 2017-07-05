@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Filter Demo</title>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="AppCtrl">
+        <input type="text" ng-model="name"/>
+        {{name | uppercase }}
+        <hr>
+        {{today | date:'short'}}
+        <hr>
+        {{values | filter:'a'}}
+    </div>
+    <div></div>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+       
+       <script>
+           var app = angular.module('myApp', []);
+
+           app.controller('AppCtrl', function($scope){
+               $scope.today = new Date();
+               $scope.values = ['a','b','c','d','aa']
+           })
+
+
+        
+        </script>
+</body>
+</html>
