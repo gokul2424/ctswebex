@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>First HTML Page</title>
+</head>
+    <body>
+        <input type="number" id="oper1"/>
+        <input type="number" id="oper2"/>
+        <button onclick="sum()"> + </button>
+        <button onclick="sub()"> - </button>
+        <div>
+            Result is: <span id="result"></span>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script>
+            var oper1, oper2
+            function readValues(){
+                 oper1 = $('#oper1').val()
+                 oper2 = $('#oper2').val()
+            }
+            function sum(){
+                readValues()
+                var result = parseInt(oper1) + parseInt(oper2)
+                $('#result').html(result)
+            }
+            function sub(){
+                readValues()
+                var result = parseInt(oper1) - parseInt(oper2)
+                 $('#result').html(result)
+            }
+        </script>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Reverse String</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="message"/>
+        <button onclick="reverse()">Reverse</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function reverse(){
+           var str =  document.getElementById('message').value
+           var reversedStr = str.split('').reverse().join('');
+           document.getElementById('result').innerHTML =reversedStr
+        }
+    </script>
+</body>
+</html>

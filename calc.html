@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>First HTML Page</title>
+</head>
+    <body>
+        <input type="number" id="oper1"/>
+        <input type="number" id="oper2"/>
+        <button onclick="sum()"> + </button>
+        <button onclick="sub()"> - </button>
+        <div>
+            Result is: <span id="result"></span>
+        </div>
+
+        <script>
+            var oper1, oper2
+            function readValues(){
+                 oper1 = document.getElementById('oper1').value
+                 oper2 = document.getElementById('oper2').value
+            }
+            function sum(){
+                readValues()
+                var result = parseInt(oper1) + parseInt(oper2)
+                document.getElementById('result').innerText = result;
+            }
+            function sub(){
+                readValues()
+                var result = parseInt(oper1) - parseInt(oper2)
+                document.getElementById('result').innerText = result;
+            }
+        </script>
+    </body>
+
+</html>
