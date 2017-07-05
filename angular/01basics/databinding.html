@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>First HTML Page</title>
+</head>
+    <body>
+        <input type="text" id="message"/> 
+        <div id="welcome">
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script>
+            
+            $('#message').keyup(function(){
+                console.log('keyup event captured!!' + $('#message').val())
+                console.log($('#message').val() + '');
+                $('#welcome').html('Welcome' + $('#message').val())
+
+            })
+
+        </script>
+
+
+    </body>
+
+</html>

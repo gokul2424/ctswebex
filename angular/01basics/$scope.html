@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>First HTML Page</title>
+</head>
+    <body ng-app="myApp">
+        <input type="text" ng-model="title"/> {{title}}
+        <hr/>
+        <div ng-controller="firstCtrl">
+            {{title}} {{fName}} {{lName}}
+
+             
+        </div>
+
+       <div ng-controller="secondCtrl">
+                {{title}} {{fName}} {{lName}}
+            </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+       
+       <script>
+           var app = angular.module('myApp', []);
+
+           app.controller('firstCtrl', function($scope){
+               console.log($scope);
+               $scope.fName = "Ravi"
+           })
+
+           app.controller('secondCtrl', function($scope){
+                console.log($scope);
+               $scope.lName = "Kumar"
+           })
+       </script>
+
+    </body>
+
+</html>
