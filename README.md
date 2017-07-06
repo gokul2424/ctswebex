@@ -16,4 +16,6 @@ JavaScript
  - Filters ( | lowercase, limitTo, date, filter)
  - Searchable Grid
 
- - Custom Tag (Directive)
+ Custom Tag (Directive)
+ - Create basic directive
+ - restrict, template, templateUrl, link

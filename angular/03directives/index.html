@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Basic Tag</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body ng-app="myApp">
+    <div class="row" ng-controller="ThumbCtrl">
+        <input type="text" ng-model="search.title" placeholder="Search by title"/>
+        <input type="text" ng-model="search.summary" placeholder="Search by summary"/>
+        <input type="text" ng-model="search.$" placeholder="Search everything"/>
+
+     <cg-thumbnail ng-repeat="course in courses | filter: search" title={{course.title}} summary={{course.summary}}></cg-thumbnail>   
+    
+    </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="thumbnail.js"></script>
+</body>
+</html>

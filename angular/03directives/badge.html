@@ -4,7 +4,7 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-<body ng-app="myApp">
+<body ng-app="badgeApp">
     <div>
      <cg-badge caption="Spam"></cg-badge>
      <cg-badge caption="Sent"></cg-badge>
@@ -13,11 +13,15 @@
      <div cg-badge caption="Work"></div>
     </div>
 
+
+ <div class="row" ng-controller="ThumbCtrl">
+     <cg-thumbnail ng-repeat="course in courses | filter: search" title={{course.title}} summary={{course.summary}}></cg-thumbnail>   
+    </div>
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-       
+   <script src="thumbnail.js"></script>    
     <script>
     
-        var app = angular.module('myApp', []);
+        var app = angular.module('badgeApp', ['myApp']);
 
         app.directive('cgBadge', function(){
             return {
