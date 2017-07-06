@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Basic Tag</title>
+</head>
+<body ng-app="myApp">
+    <div>
+        <cg-link></cg-link>
+        <cg-link></cg-link>
+        <cg-link></cg-link>
+        <cg-link></cg-link>
+        <cg-link></cg-link>
+        <cg-link></cg-link>
+        <cg-link></cg-link>
+        
+    </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+       
+    <script>
+    
+        var app = angular.module('myApp', []);
+
+        app.directive('cgLink', function(){
+            return {
+                restrict : 'E',
+                template: '<a href="http://www.cognizant.com">Cognizant Link</a>'
+            }
+        })
+    </script>
+</body>
+</html>
