@@ -1,0 +1,7 @@
+[
+        { "title": "AngularJS", "summary": "Its a framework from Google" },
+        { "title": "ReactJS", "summary": "Its a library from Facebook" },
+        { "title": "EmberJS", "summary": "Its a framework and open-source" },
+        { "title": "CanJS", "summary": "Its a framework and really good" },
+        { "title": "ExtJS", "summary": "Meant for business apps" }
+    ]

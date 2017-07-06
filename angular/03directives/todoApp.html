@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Basic Tag</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body ng-app="todoApp">
+
+    <div class="row" ng-controller="TodoCtrl">
+
+        <input type="text" ng-model="todo.text"/>
+        <button ng-click="addTodo()">Add Todo</button>
+
+    </div>    
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+ <script>
+
+     var app = angular.module('todoApp', []);
+     app.controller('TodoCtrl', function($scope, $http){
+         $scope.addTodo = function(){
+            $http({
+                url: 'dummmyUrl',
+                method: 'POST',
+                data: $scope.todo
+            }).then(function(response){
+                console.log('success', response)
+            })
+         }
+     })
+ 
+ </script>
+</body>
+</html>
