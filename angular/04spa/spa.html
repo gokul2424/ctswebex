@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Single Page App</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+    strong.error {
+        color: red;
+    }
+
+</style>
+</head>
+    <body ng-app="myApp">
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+       
+        
+        <ng-view></ng-view>
+
+        <script>
+            var app = angular.module('myApp', ['ngRoute'])
+
+            app.config(function($routeProvider){
+                $routeProvider.when("/", {
+                    templateUrl: 'partials/login.html',
+                    controller: 'LoginCtrl'
+                }).when("/profile", {
+                    templateUrl: 'partials/landing.html'
+                })
+            })
+
+            app.controller('LoginCtrl', function($scope, $http, $location){
+
+                $scope.login= function(){
+                    $http({
+                        url: 'http://localhost:8181/DemoWeb/DateServlet',
+                        method: 'GET'
+                    }).then((res)=>res.data)
+                    .then((data)=>{
+                        console.log(data);
+                        if(data.auth){
+                            $location.path('/profile');   
+                        }
+                        else{
+                            $scope.errorMessage = "Invalid Email/Password!!"
+                        }
+                    })
+                }
+               
+            })
+        </script>
+
+    </body>
+
+</html>
