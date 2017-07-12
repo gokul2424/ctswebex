@@ -1,0 +1,13 @@
+package com.cog.dao;
+
+import com.cog.enitity.User;
+
+public class UserDAO {
+	
+	public boolean addUser(User user){
+		
+		
+		return true
+	}
+
+}

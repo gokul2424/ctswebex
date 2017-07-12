@@ -1,0 +1,20 @@
+package com.cog;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.cog.dao.UserDAO;
+import com.cog.entity.User;
+
+public class TestUser {
+
+	@Test
+	public void test() {
+		UserDAO dao = new UserDAO();
+		User user = new User("Ravi");
+		boolean result = dao.addUser(user);
+		assertTrue(result);
+	}
+
+}
