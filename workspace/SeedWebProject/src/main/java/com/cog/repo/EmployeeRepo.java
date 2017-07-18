@@ -29,6 +29,7 @@ public class EmployeeRepo {
 		//DB Code
 		// session.save(emp);
 		em.persist(emp);
+		
 		return true;
 	}
 	@Transactional
@@ -42,6 +43,12 @@ public class EmployeeRepo {
 		query.setParameter("minsalary", MINIMUM_SALARY);
 		List<Employee> employees = query.getResultList();
 		return employees;
+	}
+	@Transactional
+	public Employee findEmployeeById(int id) {
+		Employee emp = em.find(Employee.class, id);
+		System.out.println(emp);
+		return emp;
 	}
 	
 	

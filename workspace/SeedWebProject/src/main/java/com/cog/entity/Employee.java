@@ -1,10 +1,15 @@
 package com.cog.entity;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Employee {
@@ -14,10 +19,18 @@ public class Employee {
 	int id;
 	@Column
 	String name;
-	
 	@Column
 	double salary;
 	
+	@OneToMany(cascade=CascadeType.ALL , fetch=FetchType.LAZY)
+	List<Address> addresses;
+	
+	public List<Address> getAddresses() {
+		return addresses;
+	}
+	public void setAddresses(List<Address> addresses) {
+		this.addresses = addresses;
+	}
 	public double getSalary() {
 		return salary;
 	}
@@ -34,7 +47,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", addresses=" + addresses + "]";
 	}
 	public int getId() {
 		return id;

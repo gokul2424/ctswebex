@@ -29,4 +29,9 @@ public class EmployeeService {
 		return employeeRepo.findEmployeesBelowMinimumSalary();
 	}
 
+	public Employee findEmployeeById(int id) {
+		
+		return employeeRepo.findEmployeeById(id);
+	}
+
 }
