@@ -1203,3 +1203,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2017-07-18 11:12:26,762 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2017-07-18 11:12:26,763 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-18 11:12:26,764 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-18 11:32:47,528 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-18 11:32:47,528 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-07-18 11:32:47,530 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-18 11:32:47,531 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
