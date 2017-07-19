@@ -25,14 +25,18 @@ public class EmployeeTest {
 
 //	@Test
 	public void test() {
-		Address officeAddress = new Address(34, "Hinjewadi", "Pune");
-		Address residenceAddress = new Address(334, "Wakad", "Pune");
+		Employee emp = new Employee("Amit", 4455);
 		
+		
+		Address officeAddress = new Address(34, "Hinjewadi", "Pune");
+		officeAddress.setEmployee(emp);
+		Address residenceAddress = new Address(334, "Wakad", "Pune");
+		residenceAddress.setEmployee(emp);
 		List<Address> addresses = new ArrayList<>();
 		addresses.add(residenceAddress);
 		addresses.add(officeAddress);
 		
-		Employee emp = new Employee("Amit", 4455);
+		
 		emp.setAddresses(addresses);
 		
 		

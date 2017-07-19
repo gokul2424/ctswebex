@@ -9,6 +9,7 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.cog.entity.Address;
 import com.cog.entity.Employee;
 
 
@@ -47,6 +48,11 @@ public class EmployeeRepo {
 	@Transactional
 	public Employee findEmployeeById(int id) {
 		Employee emp = em.find(Employee.class, id);
+		Address anotherAdd = new Address(23,"Aundh", "Pune");
+		anotherAdd.setEmployee(emp);
+		
+		List<Address> addresses = emp.getAddresses();
+		addresses.add(anotherAdd);		
 		System.out.println(emp);
 		return emp;
 	}

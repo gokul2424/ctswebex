@@ -17,3 +17,5 @@ b
 2src/main/java/com/cog/service/EmployeeService.java,2/5/2565faabc77fb611e49e24f9d9f1fdf6ca8fa23e
 \
 ,src/test/java/com/cog/test/EmployeeTest.java,1/5/15c07f5e41b7e45dabc4eb8fdf8317fe5d393f5e
+Y
+)src/main/java/com/cog/entity/Address.java,6/f/6f2fd30d9048a0584fb83120a1ce31a92813daa0

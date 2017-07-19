@@ -1,10 +1,13 @@
 package com.cog.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Address {
@@ -21,8 +24,16 @@ public class Address {
 	@Column
 	String city;
 	// mappedBy
-	Employee emp;
+	@ManyToOne(cascade=CascadeType.ALL)
+	@JoinColumn(nullable=false)
+	Employee employee;
 	
+	public Employee getEmployee() {
+		return employee;
+	}
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
 	public Address(){
 		
 	}

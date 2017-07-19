@@ -22,7 +22,7 @@ public class Employee {
 	@Column
 	double salary;
 	
-	@OneToMany(cascade=CascadeType.ALL , fetch=FetchType.LAZY)
+	@OneToMany(cascade=CascadeType.ALL , fetch=FetchType.LAZY, mappedBy="employee")
 	List<Address> addresses;
 	
 	public List<Address> getAddresses() {
