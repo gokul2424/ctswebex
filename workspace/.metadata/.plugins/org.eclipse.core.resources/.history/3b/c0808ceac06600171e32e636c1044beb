@@ -1,9 +1,0 @@
-package com.cog.dao;
-
-public class UserDAO {
-	
-	public boolean addUser(User user){
-		
-	}
-
-}

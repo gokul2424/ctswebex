@@ -48,12 +48,12 @@ public class EmployeeRepo {
 	@Transactional
 	public Employee findEmployeeById(int id) {
 		Employee emp = em.find(Employee.class, id);
-		Address anotherAdd = new Address(23,"Aundh", "Pune");
-		anotherAdd.setEmployee(emp);
-		
-		List<Address> addresses = emp.getAddresses();
-		addresses.add(anotherAdd);		
-		System.out.println(emp);
+//		Address anotherAdd = new Address(23,"Aundh", "Pune");
+//		anotherAdd.setEmployee(emp);
+//		
+//		List<Address> addresses = emp.getAddresses();
+//		addresses.add(anotherAdd);		
+//		System.out.println(emp);
 		return emp;
 	}
 	

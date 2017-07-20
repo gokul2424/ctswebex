@@ -10,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.Transient;
 
 @Entity
 public class Employee {
@@ -22,6 +23,15 @@ public class Employee {
 	@Column
 	double salary;
 	
+	@Transient
+	double newsalary;
+	
+	public double getNewsalary() {
+		return newsalary;
+	}
+	public void setNewsalary(double newsalary) {
+		this.newsalary = newsalary;
+	}
 	@OneToMany(cascade=CascadeType.ALL , fetch=FetchType.LAZY, mappedBy="employee")
 	List<Address> addresses;
 	

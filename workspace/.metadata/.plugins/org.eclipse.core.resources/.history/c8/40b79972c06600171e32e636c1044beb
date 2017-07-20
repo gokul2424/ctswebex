@@ -1,8 +1,0 @@
-package com.cog.enitity;
-
-public class User {
-	
-	int id;
-	String name;
-
-}

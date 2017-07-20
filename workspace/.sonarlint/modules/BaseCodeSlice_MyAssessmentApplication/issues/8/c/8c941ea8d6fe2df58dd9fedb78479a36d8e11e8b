@@ -1,0 +1,22 @@
+
+Rsquid:S1166J"%Either log or rethrow this exception.(”ı¾8œ„ÉÕ+HĞRMAJORZBUG
+•squid:S1488$"aImmediately return this expression instead of assigning it to the temporary variable "employees".(„Æ½Ã8œ„ÉÕ+HÏRMINORZ
+CODE_SMELL
+s
+squid:S106`";Replace this usage of System.out or System.err by a logger.(êÀ£ÿÿÿÿÿ8œ„ÉÕ+HÍRMAJORZ
+CODE_SMELL
+s
+squid:S106L";Replace this usage of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8œ„ÉÕ+HÊRMAJORZ
+CODE_SMELL
+n
+squid:S106K";Replace this usage of System.out or System.err by a logger.(¼¡¨ò8œ„ÉÕ+HÉRMAJORZ
+CODE_SMELL
+n
+squid:S106_";Replace this usage of System.out or System.err by a logger.(½Ø×Ñ8œ„ÉÕ+HÌRMAJORZ
+CODE_SMELL
+n
+squid:S106a";Replace this usage of System.out or System.err by a logger.(½Ø×Ñ8œ„ÉÕ+HÎRMAJORZ
+CODE_SMELL
+n
+squid:S106M";Replace this usage of System.out or System.err by a logger.(âÍ¼ş8œ„ÉÕ+HËRMAJORZ
+CODE_SMELL

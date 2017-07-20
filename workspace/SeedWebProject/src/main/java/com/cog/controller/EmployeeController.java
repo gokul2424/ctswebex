@@ -3,9 +3,13 @@ package com.cog.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,6 +23,33 @@ public class EmployeeController {
 
 	@Autowired
 	EmployeeService service;
+	
+	@RequestMapping(value = "/updatesalary", method = RequestMethod.GET)
+	public String updatedSalaryPage(@RequestParam("id") int id ,Model model){
+		
+		Employee emp = service.findEmployeeById(id);
+		
+		model.addAttribute("employee",emp );
+		return "update";
+	}
+	
+	@RequestMapping(value = "/updatesalary", method = RequestMethod.POST)
+	public String updateSalary(
+			@ModelAttribute("employee") Employee employee,
+			BindingResult result, 
+			Model model){
+		
+		System.out.println(employee);
+		try{
+			Employee emp = service.updateSalary(employee.getId(), employee.getNewsalary());
+			model.addAttribute("employee", emp);
+		}
+		catch(RuntimeException re){
+			result.rejectValue("newsalary", "" ,re.getMessage());
+		}
+		return "update";
+		
+	}
 
 	@RequestMapping(value = "/addemployee", method = RequestMethod.GET)
 	public String addEmployee() {

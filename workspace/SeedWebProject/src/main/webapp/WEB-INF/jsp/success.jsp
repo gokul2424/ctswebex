@@ -7,8 +7,10 @@
 <title>Success Page after Employee addition</title>
 </head>
 <body>
-	<h1>	Success Page!!, User Successfully inserted!!</h1>
+	<h1>	Success Page!!, Employee salary updated!!</h1>
 	
-	<h1>Member Name is: ${username}</h1>
+	<h1>New salary is  ${newsalary}</h1>
+	 
+	 
 </body>
 </html>

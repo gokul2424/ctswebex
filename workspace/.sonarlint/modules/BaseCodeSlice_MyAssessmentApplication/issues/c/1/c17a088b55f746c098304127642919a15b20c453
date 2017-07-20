@@ -1,0 +1,28 @@
+
+ysquid:S1192)"IDefine a constant instead of duplicating this literal "employee" 3 times.(õó•ŠH RCRITICALZ
+CODE_SMELL
+g
+squid:S1065";Replace this usage of System.out or System.err by a logger.(¼¡¨òH¡RMAJORZ
+CODE_SMELL
+l
+squid:S106K";Replace this usage of System.out or System.err by a logger.(ÌìÄáûÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+l
+squid:S106L";Replace this usage of System.out or System.err by a logger.(¾êúûÿÿÿÿH£RMAJORZ
+CODE_SMELL
+l
+squid:S106M";Replace this usage of System.out or System.err by a logger.(—®Ş»ÿÿÿÿÿH¤RMAJORZ
+CODE_SMELL
+csquid:S1135E"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¥RINFOZ
+CODE_SMELL
+csquid:S1135T"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¦RINFOZ
+CODE_SMELL
+csquid:S1135y"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH§RINFOZ
+CODE_SMELL
+_squid:S1135”"2Complete the task associated to this TODO comment.(ÉÚõÎH¨RINFOZ
+CODE_SMELL
+Ksquid:S1166D"%Either log or rethrow this exception.(äôƒH©RMAJORZBUG
+Psquid:S1166S"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿHªRMAJORZBUG
+Ksquid:S1166x"%Either log or rethrow this exception.(”ı¾H«RMAJORZBUG
+Xsquid:S1148U"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¬RMINORZVULNERABILITY
+Xsquid:S1148z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH­RMINORZVULNERABILITY
