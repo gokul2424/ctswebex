@@ -1,0 +1,5 @@
+
+n
+squid:S106*";Replace this usage of System.out or System.err by a logger.(¼¡¨ò8£ã™óÕ+HµRMAJORZ
+CODE_SMELL
+Rsquid:S1166/"%Either log or rethrow this exception.(ŽîŠú8Ž½‡ôÕ+H“RMAJORZBUG

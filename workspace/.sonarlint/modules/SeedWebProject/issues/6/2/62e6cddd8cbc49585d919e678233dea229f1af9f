@@ -1,0 +1,7 @@
+
+Zsquid:S1170"!Make this final field static too.(ÏÌ€²ıÿÿÿÿ8™âŞòÕ+H‰RMINORZ
+CODE_SMELL
+•squid:S1488-"aImmediately return this expression instead of assigning it to the temporary variable "employees".(„Æ½Ã8™âŞòÕ+HˆRMINORZ
+CODE_SMELL
+squid:S14882"[Immediately return this expression instead of assigning it to the temporary variable "emp".(ÇÈğ8‡çÍóÕ+HáRMINORZ
+CODE_SMELL
