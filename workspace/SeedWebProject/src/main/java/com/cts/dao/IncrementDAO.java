@@ -6,6 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,6 +18,8 @@ public class IncrementDAO {
 	@PersistenceContext
 	EntityManager em;
 	
+	Logger logger = Logger.getLogger(this.getClass());
+	
 	@Transactional
 	public boolean addEmployee(Employee emp) {
 		em.persist(emp);
@@ -25,9 +28,17 @@ public class IncrementDAO {
 
 	@Transactional
 	public Employee findEmployeeById(int id) {
-		Employee emp = em.find(Employee.class, id);
-		System.out.println(emp);
-		System.out.println(emp.getIncrements());
+		Employee emp = null;
+		try{
+			
+			emp = em.find(Employee.class, id);
+		}
+		catch(Exception e){
+			logger.error(e.getMessage());
+		}
+		
+		logger.debug(emp);
+		logger.debug(emp.getIncrements());
 		return emp;
 	}
 

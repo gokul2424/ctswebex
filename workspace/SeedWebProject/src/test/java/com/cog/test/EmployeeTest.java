@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,8 @@ import com.cog.service.EmployeeService;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath*:/beans.xml")
 public class EmployeeTest {
+	
+	Logger logger = Logger.getLogger(this.getClass());
 	
 	@Autowired
 	EmployeeService service;
@@ -45,6 +48,7 @@ public class EmployeeTest {
 		
 		
 		emp.setName("XYZ");// EMp is in detached state
+		logger.debug(result);
 		System.out.println(result);
 		assertTrue(result);
 	}
@@ -54,8 +58,9 @@ public class EmployeeTest {
 	public void findByEmployeeId(){
 		int id = 1;
 		Employee emp = service.findEmployeeById(id);
+		logger.debug(emp);
 		System.out.println(emp);
-		System.out.println(emp.getAddresses().get(1).getLocality());
+		logger.debug(emp.getAddresses().get(1).getLocality());
 		assertTrue(true);
 	}
 	

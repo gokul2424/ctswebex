@@ -9,6 +9,7 @@ import java.util.List;
 
 import javax.validation.ConstraintViolationException;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,8 @@ import com.cts.service.IncrementService;
 public class SalaryIncrementTest {
 	@Autowired
 	IncrementService service;
+	
+	Logger logger = Logger.getLogger(this.getClass());
 
 //	@Test
 	public void insertEmployeeWithOneIncrement() {
@@ -41,7 +44,7 @@ public class SalaryIncrementTest {
 		assertTrue(result);
 		
 	}
-	@Test(expected=ConstraintViolationException.class)
+//	@Test(expected=ConstraintViolationException.class)
 	public void insertEmployeeWithOneIncrementNegative() {
 		Employee emp = new Employee("Arun", 3000);
 		
@@ -57,10 +60,13 @@ public class SalaryIncrementTest {
 		
 	}
 
-//	@Test
+	@Test
 	public void findEmployeeWithId(){
 		int id = 1;		
+		logger.info("*************");
+		logger.error("++++++++++++");
 		Employee emp = service.findEmployeeById(id);	
+		logger.debug(emp);
 		assertTrue(emp != null);
 	}
 	
