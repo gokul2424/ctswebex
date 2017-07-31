@@ -32,6 +32,7 @@ public class IncrementDAO {
 		try{
 			
 			emp = em.find(Employee.class, id);
+			emp.getIncrements();
 		}
 		catch(Exception e){
 			logger.error(e.getMessage());

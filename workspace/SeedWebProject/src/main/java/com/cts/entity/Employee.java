@@ -11,7 +11,11 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.xml.bind.annotation.XmlRootElement;
 
+
+
+@XmlRootElement
 @Entity
 public class Employee {
 	@Id

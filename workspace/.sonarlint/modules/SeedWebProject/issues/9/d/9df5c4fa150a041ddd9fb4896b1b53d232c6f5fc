@@ -1,0 +1,6 @@
+
+s
+squid:S106;";Replace this usage of System.out or System.err by a logger.(¹“±ûÿÿÿÿ8¢ÝÙ”Ø+HøRMAJORZ
+CODE_SMELL
+Wsquid:S1166$"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ÁŸÐ½Ø+H“RMAJORZBUG
+ksquid:S2259)">NullPointerException might be thrown as 'emp' is nullable here(ñƒ€»8Äÿ×½Ø+H¬RMAJORZBUG

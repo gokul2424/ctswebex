@@ -25,3 +25,13 @@ V
 &src/main/webapp/WEB-INF/jsp/member.jsp,6/4/649806a752123823c3befb711d72bd3b81237efa
 Y
 )src/main/webapp/WEB-INF/jsp/salaryInc.jsp,8/e/8e6a4f0be0b276508b9913667801ac271fedfb45
+S
+#src/main/resources/log4j.properties,7/5/755950bb690295904a49d36e60958901c54013b8
+X
+(src/main/resources/welcome_de.properties,d/c/dc734d4c236a731869440675d1dd01cc28207498
+X
+(src/main/resources/welcome_en.properties,c/f/cf6a66143dd9706b4120b3cc0f387449a5ed2db4
+X
+(src/main/resources/welcome_fr.properties,8/0/803b4a50f34d2ed5bb50fd55d73897e4563f11e4
+X
+(src/main/resources/welcome_hi.properties,3/2/32f540c7c54d72cd9ce944b81759b479b5270ffe

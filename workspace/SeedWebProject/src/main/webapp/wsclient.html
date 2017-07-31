@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>WS Client</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.1/css/foundation.min.css">
+</head>
+<body ng-app="myApp">
+    <div ng-controller="AppCtrl">
+   		 <input type="text" ng-model="id" placeholder="Enter Employee ID"/>
+        <button ng-click="loadData()">Load Data</button>
+        <table>
+            
+            
+            <h3>Employee Data</h3>
+            <p>Name: {{employee.name}}</p>
+              <p>Salary: {{employee.salary}}</p>
+            
+
+            <tr ng-repeat="increment in employee.increments"> 
+            
+                <td>{{$index+1}}</td>
+                <td>{{increment.amount}}</td>
+                <td>{{increment.incrementDate | date:'medium'}}</td>
+            </tr>
+        </table>    
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>    
+    <script>
+        var app = angular.module('myApp', []);
+
+        app.controller('AppCtrl', function($scope, $http){
+            // $scope.employees = [
+            //     {name:"Ravi", salary: 34354},
+            //     {name:"Priya", salary: 34545}
+            // ]
+            $scope.loadData = function(){
+            	var myUrl  =  'http://localhost:8080/SeedWebProject/mvc/employees?id=' + $scope.id
+                $http({
+                   url: myUrl,
+                   method: 'GET'
+               }).then(res=> res.data)
+               .then(data=>{
+                   console.log(data);
+                   $scope.employee = data;
+               }) 
+            }
+
+              
+        })
+
+    </script>
+
+</body>
+</html>
