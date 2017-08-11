@@ -47,3 +47,5 @@ S
 #src/main/resources/log4j.properties,7/5/755950bb690295904a49d36e60958901c54013b8
 D
 logs/application.log,0/6/0641b236affda539908a9844d4ee20d152194063
+M
+src/main/webapp/wsclient.html,7/3/738ed5095e49440e43e542cc3f3d0ba0723f5ec6

@@ -1,22 +1,0 @@
-
-n
-squid:S106K";Replace this usage of System.out or System.err by a logger.(¼¡¨ò8œ„ÉÕ+Hà	RMAJORZ
-CODE_SMELL
-Rsquid:S1166J"%Either log or rethrow this exception.(”ı¾8œ„ÉÕ+Há	RMAJORZBUG
-•squid:S1488$"aImmediately return this expression instead of assigning it to the temporary variable "employees".(„Æ½Ã8œ„ÉÕ+Hâ	RMINORZ
-CODE_SMELL
-s
-squid:S106L";Replace this usage of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8œ„ÉÕ+Hã	RMAJORZ
-CODE_SMELL
-n
-squid:S106_";Replace this usage of System.out or System.err by a logger.(½Ø×Ñ8œ„ÉÕ+Hä	RMAJORZ
-CODE_SMELL
-n
-squid:S106M";Replace this usage of System.out or System.err by a logger.(âÍ¼ş8œ„ÉÕ+Hå	RMAJORZ
-CODE_SMELL
-n
-squid:S106a";Replace this usage of System.out or System.err by a logger.(½Ø×Ñ8œ„ÉÕ+Hæ	RMAJORZ
-CODE_SMELL
-s
-squid:S106`";Replace this usage of System.out or System.err by a logger.(êÀ£ÿÿÿÿÿ8œ„ÉÕ+Hç	RMAJORZ
-CODE_SMELL

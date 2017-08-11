@@ -1,23 +1,22 @@
 
-s
-squid:S106<";Replace this usage of System.out or System.err by a logger.(ÌìÄáûÿÿÿÿ8˜ÿÏ–Ø+H‰RMAJORZ
+n
+squid:S106G";Replace this usage of System.out or System.err by a logger.(ší‹±8˜ÿÏ–Ø+HüRMAJORZ
 CODE_SMELL
-s
-squid:S106=";Replace this usage of System.out or System.err by a logger.(¾êúûÿÿÿÿ8Ôÿä–Ø+H™RMAJORZ
+squid:S11928"IDefine a constant instead of duplicating this literal "employee" 4 times.(ğÙ…~8†À„–Ø+HşRCRITICALZ
+CODE_SMELL
+jsquid:S1135H"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8˜ÿÏ–Ø+HôRINFOZ
 CODE_SMELL
 n
-squid:S106E";Replace this usage of System.out or System.err by a logger.(‹Î†é8˜ÿÏ–Ø+HˆRMAJORZ
+squid:S106V";Replace this usage of System.out or System.err by a logger.(‹Î†é8Ôÿä–Ø+HöRMAJORZ
 CODE_SMELL
 s
-squid:S106>";Replace this usage of System.out or System.err by a logger.(—®Ş»ÿÿÿÿÿ8ÌÁò–Ø+H RMAJORZ
+squid:S106P";Replace this usage of System.out or System.err by a logger.(—®Ş»ÿÿÿÿÿ8˜ÿÏ–Ø+HøRMAJORZ
 CODE_SMELL
-Rsquid:S11664"%Either log or rethrow this exception.(äôƒ8˜ÿÏ–Ø+HRMAJORZBUG
-jsquid:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8˜ÿÏ–Ø+H‹RINFOZ
+s
+squid:S106O";Replace this usage of System.out or System.err by a logger.(¾êúûÿÿÿÿ8˜ÿÏ–Ø+HúRMAJORZ
 CODE_SMELL
-squid:S1192#"IDefine a constant instead of duplicating this literal "employee" 4 times.(ğÙ…~8†À„–Ø+Hç
-RCRITICALZ
+Wsquid:S1166F"%Either log or rethrow this exception.(Ñ†¿áûÿÿÿÿ8˜ÿÏ–Ø+H„RMAJORZBUG
+s
+squid:S106N";Replace this usage of System.out or System.err by a logger.(ÌìÄáûÿÿÿÿ8ÌÁò–Ø+H‚RMAJORZ
 CODE_SMELL
-Wsquid:S1166D"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ÌÁò–Ø+H¡RMAJORZBUG
-n
-squid:S1065";Replace this usage of System.out or System.err by a logger.(ší‹±8˜ÿÏ–Ø+HŠRMAJORZ
-CODE_SMELL
+Rsquid:S1166U"%Either log or rethrow this exception.(”ı¾8ÌÁò–Ø+H€RMAJORZBUG

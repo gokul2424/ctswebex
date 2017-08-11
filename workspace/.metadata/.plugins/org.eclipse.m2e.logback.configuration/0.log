@@ -2902,3 +2902,133 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2017-07-31 12:11:16,724 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-07-31 12:11:16,726 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-31 12:11:16,726 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-01 17:41:46,218 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-01 17:41:46,220 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-01 17:41:46,222 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-01 17:41:46,222 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:30:38,814 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 10:30:38,842 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2017-08-02 10:30:38,877 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 10:30:38,880 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-02 10:31:09,609 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:31:09,628 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-02 10:31:09,631 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:31:09,631 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:31:10,091 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:31:10,092 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-02 10:31:10,099 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:31:10,101 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:31:10,232 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 10:31:10,233 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:31:10,235 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 10:31:10,236 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:31:10,324 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 10:31:10,327 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-08-02 10:31:10,330 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 10:31:10,330 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 10:42:37,354 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 10:42:37,378 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2017-08-03 10:42:37,416 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 10:42:37,418 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 10:43:08,352 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-03 10:43:08,369 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-03 10:43:08,371 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-03 10:43:08,372 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 10:43:08,928 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-03 10:43:08,929 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-03 10:43:08,932 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-03 10:43:08,933 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 10:43:09,104 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 10:43:09,105 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 10:43:09,107 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 10:43:09,108 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 10:43:09,182 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 10:43:09,182 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-08-03 10:43:09,185 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 10:43:09,185 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:16:56,222 [Worker-91] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BaseCodeSlice_MyAssessmentApplication:BaseCodeSlice_MyAssessmentApplication:0.0.1-SNAPSHOT @ /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/pom.xml.
+2017-08-03 11:16:57,337 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:16:57,344 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:16:57,346 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:16:57,346 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 11:16:57,350 [Worker-91] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:16:57,351 [Worker-91] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:16:57,375 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:16:58,940 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BaseCodeSlice_MyAssessmentApplication:BaseCodeSlice_MyAssessmentApplication:0.0.1-SNAPSHOT @ /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/pom.xml.
+2017-08-03 11:16:59,746 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:16:59,746 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:16:59,749 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:16:59,749 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 11:16:59,750 [Worker-96] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:16:59,754 [Worker-96] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:16:59,769 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:17:48,026 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BaseCodeSlice_MyAssessmentApplication:BaseCodeSlice_MyAssessmentApplication:0.0.1-SNAPSHOT @ /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/pom.xml.
+2017-08-03 11:17:49,002 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:17:49,003 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:17:49,005 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:17:49,005 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 11:17:49,006 [Worker-96] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:17:49,006 [Worker-96] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:17:49,011 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:22:46,848 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:22:46,849 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:23:01,877 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:23:01,882 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2017-08-03 11:23:01,886 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:23:01,886 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 11:23:54,476 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:23:54,476 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:24:03,902 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:24:03,903 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2017-08-03 11:24:03,905 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:24:03,906 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 11:24:12,646 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/ctswebex/workspace/SeedWebProject
+2017-08-03 11:24:12,646 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:24:16,353 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:24:16,355 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:24:16,356 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:24:16,356 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:25:12,140 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:12,140 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-08-03 11:25:12,157 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:12,157 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:25:19,107 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/ctswebex/workspace/SeedWebProject
+2017-08-03 11:25:19,107 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:25:23,214 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:23,214 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:25:23,216 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:23,216 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:25:40,120 [Worker-98] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BaseCodeSlice_MyAssessmentApplication:BaseCodeSlice_MyAssessmentApplication:0.0.1-SNAPSHOT @ /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/pom.xml.
+2017-08-03 11:25:40,909 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:40,910 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:25:40,912 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:40,912 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/puneetvashisht/work/trainings/demoproject/ctstraining/BaseCodeSlice_MyAssessmentApplication/src/test/resources
+2017-08-03 11:25:40,913 [Worker-98] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:25:40,913 [Worker-98] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for BaseCodeSlice_MyAssessmentApplication
+2017-08-03 11:25:40,920 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:45,589 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/ctswebex/workspace/SeedWebProject
+2017-08-03 11:25:45,589 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:25:53,145 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:53,146 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:25:53,148 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:25:53,148 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:26:36,777 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:26:36,778 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:26:36,781 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:26:36,781 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:26:45,158 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/ctswebex/workspace/SeedWebProject
+2017-08-03 11:26:45,159 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:26:52,549 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:26:52,549 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:26:52,551 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:26:52,552 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:28:00,630 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:28:00,631 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:28:00,633 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:28:00,633 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:28:07,227 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/puneetvashisht/work/trainings/ctswebex/workspace/SeedWebProject
+2017-08-03 11:28:07,228 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-08-03 11:28:14,402 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:28:14,402 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-03 11:28:14,404 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-03 11:28:14,404 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
